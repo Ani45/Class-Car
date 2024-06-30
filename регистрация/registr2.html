@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registr.css">
+    <title>Регистрация</title>
+</head>
+<body>
+<section>
+    <div class="login">
+        <form>
+            <h1>REGISTRACIA</h1>
+            <div class="inputbox"
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" id="email" required>
+                <label for="">Email</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" id="pas" required>
+                <label for="">Password</label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="role" value="user" checked> User
+                </label></br>
+                <label>
+                    <input type="radio" name="role" value="admin"> Admin
+                </label>
+            </div>
+
+            <button type="button" onclick="location.href="avtorizacia.html">Registration</button>            
+            <a href="avtorizacia.html">avtorizacia</a>
+            <script src="script/registraciya.js"></script>
+        </form>
+    </div>
+</section>
+    
+</body>
+</html>

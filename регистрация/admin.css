@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:url(a65d02f689abc1dfddb2471b153da6eb.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section{
+  position: relative;
+  max-width: 400px;
+  background-color: transparent;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(55px);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+header {
+  background-color: #000000b9;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #000000;
+  border: 1px solid rgb(34, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 5px 9px #370909;
+  padding: 20px;
+  position: relative;
+  color:rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: #350909;
+  border: 1px solid rgb(78, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 2px 9px #3b0909;
+  padding: 20px;
+  position: relative;
+  color:rgb(242, 255, 218);
+}
+
+#carsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.car {
+  background-color: #f8f8f82c;
+  border: 1px solid rgb(78, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #410909;
+  padding: 20px;
+  position: relative;
+}
+
+.car h3 {
+  margin-top: 0;
+}
+
+.car p {
+  margin: 5px 0;
+}
+
+.deleteButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #280606;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

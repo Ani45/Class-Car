@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница администратора</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header>
+    <h1 align="center">Страница администратора</h1>
+    
+    <a href="avtorizacia.html">Авторизация</a>
+  </header>
+
+  <main>
+    <section>
+      <h2 align="center">Добавление автомобиля</h2>
+      <form id="newCarForm">
+      <label for="brand">Марка:</label>
+      <input type="text" id="brand" name="brand" required>
+
+      <label for="model">Модель:</label>
+      <input type="text" id="model" name="model" required>
+
+      <label for="year">Год выпуска:</label>
+      <input type="number" id="year" name="year" required>
+
+      <label for="color">Цвет:</label>
+      <input type="text" id="color" name="color" required>
+
+      <label for="power">Мощность (л.с.):</label>
+      <input type="number" id="power" name="power" required>
+
+      <label for="power">Скорость (км/ч):</label>
+      <input type="number" id="power" name="power" required>
+
+      <label for="city">Город:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="price">Цена (руб.):</label>
+      <input type="number" id="price" name="price" required><br>
+
+      <button type="submit"><h2>Добавить автомобиль</h2></button>
+    </form>
+</section>
+
+<section>
+  <h1 align="center">Машина выехала</h1><br>
+  <div id="carsContainer"></div>
+</section>
+</main>
+
+<script src="admin.js"></script>
+</body>
+</html>
